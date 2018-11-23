@@ -1,5 +1,5 @@
 package pl.sda.javapoza11.spring.hellospring.entity;
 
-public enum Status {
+public enum PaymentStatus {
     CANCELLED, DONE, IN_PROGRESS
 }

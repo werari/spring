@@ -9,11 +9,11 @@ import pl.sda.javapoza11.spring.hellospring.repository.PaymentRepository;
 import java.time.Instant;
 @Service
 @Profile("dev")
-public class NewPaymentsWithDoneStatusPaymentSevice implements PaymentActions {
+public class NewPaymentsWithDoneStatusPaymentService implements PaymentActions {
 
     private PaymentRepository paymentRepository;
 
-    public NewPaymentsWithDoneStatusPaymentSevice(PaymentRepository paymentRepository) {
+    public NewPaymentsWithDoneStatusPaymentService(PaymentRepository paymentRepository) {
         this.paymentRepository = paymentRepository;
     }
 
